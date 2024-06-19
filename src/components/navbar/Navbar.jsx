@@ -45,50 +45,50 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='lg:flex flex-col hidden w-[80%]' >
-                <div className='flex flex-row justify-between bg-[#161616] w-full py-4 pl-5' >
+                <div className='flex flex-row justify-around trapezium w-full py-4 pl-8' >
                     <div className='w-[50%]' >
-                        <h1 className='text-white text-[18px]' > Don’t Wait! Call us today for a free quote!</h1>
+                        <h1 className='text-white text-[18px] font-barlow' > Don’t Wait! Call us today for a free quote!</h1>
                     </div>
-                    <div className='w-[50%] flex space-x-10'>
-                        <h1 className='text-white text-[18px]'> <span className='inline-block' > <CiPhone /> </span> 0408 706 612  </h1>
-                        <h1 className='text-white text-[18px]'> <span className='inline-block' > <CiMail />  </span> contact@welshindustries.com.au </h1>
+                    <div className='w-[50%] flex space-x-10 items-center justify-center'>
+                        <h1 className='text-white text-[18px] font-barlow flex items-center'> <span className='inline-block mr-2 font-bold text-white text-2xl' > <CiPhone /> </span> 0408 706 612  </h1>
+                        <h1 className='text-white text-[18px] font-barlow flex items-center'> <span className='inline-block mr-2 font-bold text-white text-2xl' > <CiMail />  </span> contact@welshindustries.com.au </h1>
                     </div>
                 </div>
                 <div className='flex flex-row space-x-16 px-10' >
-                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-400 transition-all duration-500 ease-in-out my-5' > Home </Link>
-                    <div className='relative hover:underline hover:underline-offset-4 hover:text-green-400 transition-all duration-500 ease-in-out my-5' >
+                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-one transition-all duration-500 ease-in-out my-5 font-barlow' > Home </Link>
+                    <div className='relative hover:underline hover:underline-offset-4 hover:text-green-one transition-all duration-500 ease-in-out my-5' >
                         <Link onClick={() => setIsAboutOpen(!isAboutOpen)}
                             className=" text-[18px] font-extrabold" >
                             About <span> <MdKeyboardArrowDown className='inline-block' /> </span>
                         </Link>
                         {isAboutOpen && (
                             <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-20">
-                                <a href="#about-us" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">About Us</a>
-                                <a href="#team" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Our Team</a>
-                                <a href="#careers" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Careers</a>
+                                <a href="#about-us" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">About Us</a>
+                                <a href="#team" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">Our Team</a>
+                                <a href="#careers" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">Careers</a>
                             </div>
                         )}
                     </div>
-                    <div className='relative hover:underline hover:underline-offset-4 hover:text-green-400 transition-all duration-500 ease-in-out my-5' >
+                    <div className='relative hover:underline hover:underline-offset-4 hover:text-green-one transition-all duration-500 ease-in-out my-5' >
                         <Link onClick={() => setIsServicesOpen(!isServicesOpen)}
                             className="text-[18px] font-extrabold" >
                             Services <span> <MdKeyboardArrowDown className='inline-block' /> </span>
                         </Link>
                         {isServicesOpen && (
                             <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-20">
-                                <a href="#web-design" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Web Design</a>
-                                <a href="#seo" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">SEO</a>
-                                <a href="#marketing" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Marketing</a>
+                                <a href="#web-design" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">Web Design</a>
+                                <a href="#seo" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">SEO</a>
+                                <a href="#marketing" className="block px-4 py-2 text-gray-800 hover:bg-gray-200 font-barlow">Marketing</a>
                             </div>
                         )}
                     </div>
 
-                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-400 transition-all duration-500 ease-in-out my-5' > Projects </Link>
-                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-400 transition-all duration-500 ease-in-out my-5' > Careers </Link>
-                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-400 transition-all duration-500 ease-in-out my-5' > Contact </Link>
+                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-one transition-all duration-500 ease-in-out my-5 font-barlow' > Projects </Link>
+                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-one transition-all duration-500 ease-in-out my-5 font-barlow' > Careers </Link>
+                    <Link className='hover:underline hover:underline-offset-4 text-[18px] font-extrabold hover:text-green-one transition-all duration-500 ease-in-out my-5 font-barlow' > Contact </Link>
 
                     <div>
-                        <Link className='py-2 px-5 bg-green-400 text-[18px] font-bold flex items-center my-3' > Get A Free Quote <span className='inline-block ml-3' > <FaArrowRightLong /> </span> </Link>
+                        <Link className='py-2 px-5 bg-green-one text-[18px] font-bold flex items-center my-3 font-barlow' > Get A Free Quote <span className='inline-block ml-3' > <FaArrowRightLong /> </span> </Link>
                     </div>
                 </div>
             </div>
