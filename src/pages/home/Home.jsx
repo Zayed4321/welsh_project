@@ -17,10 +17,10 @@ const Home = () => {
                 </div>
                 <div className='absolute top-48' >
                     <div className='flex flex-row' >
-                        <div className='w-[50%]' >
+                        <div className='w-full' >
                             <div>
-                                <h1 className='text-[50px] font-black pl-12 text-white font-barlow' > VICTORIA’S <span className='text-green-one font-barlow' > MOST TRUSTED </span>
-                                    CIVIL CONTRACTING AND EARTHWORKS EXPERTS </h1>
+                                <h1 className='text-[55px] font-black pl-12 text-white font-barlow' > VICTORIA’S <span className='text-green-one font-barlow' > MOST TRUSTED </span>
+                                    <br /> CIVIL CONTRACTING AND <br /> EARTHWORKS EXPERTS </h1>
                                 <p className=' pl-12 text-white font-bold text-[22px] mt-2 font-barlow' > SETTING NEW STANDARDS AND DELEVIRING A <span className='text-green-one' > STRESS <br /> FREE </span> EXPERIENCE EVERY TIME. </p>
                                 <div className='pl-12 mt-5 flex space-x-8'>
                                     <img src={review} alt="" />
@@ -35,10 +35,9 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-[50%]' ></div>
                     </div>
-                    <div className='mt-10 pl-12 flex items-center justify-start' >
-                        <div className='bg-white py-9 px-10 w-[80%]' >
+                    <div className='mt-10 pl-12 flex items-center justify-center mx-auto w-[1335px]' >
+                        <div className='bg-white py-9 px-10 w-full' >
                             <h1 className='text-[34px] font-extrabold font-barlow' > BOOK YOUR FREE ON-SITE INSPECTION AND QUOTE! </h1>
                             <form>
                                 <div className='flex flex-row mt-5 space-x-3' >
