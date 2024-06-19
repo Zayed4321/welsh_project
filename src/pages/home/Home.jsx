@@ -68,10 +68,10 @@ const Home = () => {
                                             <GoPencil />
                                         </label>
                                     </div>
-                                    <div className='w-1/3 bg-green-one rounded-md cursor-pointer'>
-                                        <button type='submit' className='text-black flex justify-between items-center w-full py-3 px-3'>
+                                    <div className='w-1/3'>
+                                        <button type='submit' className='text-black flex justify-between items-center w-full py-3 px-3 bg-green-one rounded-md cursor-pointer'>
                                             <h1 className='text-start'>Book Now</h1>
-                                            <span><CiMail className='inline-block' /></span>
+                                            <span><FaArrowRightLong className='inline-block' /></span>
                                         </button>
                                     </div>
                                 </div>
