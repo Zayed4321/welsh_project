@@ -19,7 +19,7 @@ const Home = () => {
                     <div className='flex flex-row' >
                         <div className='w-[50%]' >
                             <div>
-                                <h1 className='text-[50px] font-black pl-12 text-white' > VICTORIA’S <span className='text-green-one font-barlow' > MOST TRUSTED </span>
+                                <h1 className='text-[50px] font-black pl-12 text-white font-barlow' > VICTORIA’S <span className='text-green-one font-barlow' > MOST TRUSTED </span>
                                     CIVIL CONTRACTING AND EARTHWORKS EXPERTS </h1>
                                 <p className=' pl-12 text-white font-bold text-[22px] mt-2 font-barlow' > SETTING NEW STANDARDS AND DELEVIRING A <span className='text-green-one' > STRESS <br /> FREE </span> EXPERIENCE EVERY TIME. </p>
                                 <div className='pl-12 mt-5 flex space-x-8'>
